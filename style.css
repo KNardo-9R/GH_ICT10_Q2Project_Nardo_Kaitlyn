@@ -1,0 +1,85 @@
+body{
+    background: url(bikinibottom.jpg); 
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header{
+    color: darkblue;
+    background-color: rgba(113, 203, 219);
+    padding: 5px;
+    margin-top: 20px;
+    background: url(schoolhead.jpg);
+    background-size: cover;
+}
+
+.about{
+    background-color: rgba(113, 203, 219, 0.50);
+    padding: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+.top{
+    background-color: rgb(239, 155, 182);
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.output{ 
+    white-space: pre-wrap; 
+    background-color: rgb(240, 184, 202, 0.75);
+    margin-top: 20px; 
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.buttonoutput{
+    white-space: pre-wrap; 
+    background-color: rgb(240, 184, 202, 0.75);
+    margin-top: 30px; 
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.container1{
+    margin-top: 20px;
+    background-color: rgb(239, 155, 182);
+    padding: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+img{
+    border: 3px solid #d62e2e;
+    border-radius: 20px;
+    padding: 5px;
+    width: 500px;
+    background-color: rgb(222, 76, 57);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #174d76;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}

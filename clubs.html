@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- PYSCRIPT -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>School Website</title>
+</head>
+<body>
+    <py-script src="mainclub.py"></py-script>
+
+    <ul>   
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gwa.html">Grade Calculator</a></li>
+        <li><a href="clubs.html">Clubs</a></li>
+    </ul>
+
+    <div class="top">
+        <div class="clubheader"><h1>School Club Information</h1></div>
+        <hr style="height:2px;border-width:0;color:rgb(255, 179, 179);background-color:rgb(255, 212, 212)">
+
+        <h4>Select a club:</h4>
+        <button type="button" class="btn-info" py-click="commarts_result" id="commarts">Communication Arts Club</button><br>
+        <button type="button" class="btn-info" py-click="math_result" id="math">Math Club</button><br>
+        <button type="button" class="btn-info" py-click="sci_result"id="science">Science Club</button><br>
+        <button type="button" class="btn-info" py-click="ss_result" id="social sciences">Social Sciences Club</button><br>
+        <button type="button" class="btn-info" py-click="vball_result" id="volleyball">Volleyball Club</button><br>
+        <br>
+    </div>
+
+    <div class="output" id="output"></div>
+</body>
+</html>
